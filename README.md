@@ -56,4 +56,13 @@ Design and implement a **system bet calculator** that computes potential winning
 #### Edge Cases:
 - Handle cases where no bet wins, all bets win, or only some combinations win.
 
+### 4. Testing
+
+To ensure the calculator functions correctly, implement a series of automated tests that validate its key features. These tests should cover:
+
+- **Correct input handling:** Test for valid and invalid inputs (e.g., missing odds, invalid system types, negative stake).
+- **Combination accuracy:** Verify that the system bet calculator generates the correct combinations for different system types (e.g., 2/3, 3/4).
+- **Payout calculation:** Test that the potential payouts are correctly computed for different combinations of winning events, including edge cases (no wins, all wins, partial wins).
+- **Edge case handling:** Confirm that the system behaves as expected in edge cases (e.g., when no combination wins or when all bets win).
+
 [example](http://images.lsbet.com/calculator/calculate.html)
